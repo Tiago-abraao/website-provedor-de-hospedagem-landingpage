@@ -1,0 +1,146 @@
+
+ .topo-color{
+    background-color: #2f86d6;
+ }
+ 
+ .topo2 {
+    margin: 0px auto;
+    position: relative;
+    padding: 35px 0px;
+    max-width: 1024px;
+}
+
+.topo2 .topo2-logo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.topo2 .topo2-logo p {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.topo2 .topo2-logo img {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+}
+
+.topo2 .topo2-link {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.topo2 .topo2-link a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tabela-preco{
+    padding: 100px 0px;
+}
+
+.tabela-preco table{
+    max-width: 1024px;
+    background: #fff;
+     margin: 20px auto;
+  }
+
+  
+
+
+  .tabela-preco thead th p {
+    margin: 0;
+    font-size: 12px;
+    color: #777;
+  }
+
+  .tabela-preco thead th h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+    color: #111;
+  }
+
+  /* Células */
+  .tabela-preco td,
+  .tabela-preco th {
+    padding: 14px 10px;
+  }
+
+  .tabela-preco-cel {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    background: #f6f8fa;
+  }
+
+  /* Fundo destaque para colunas do topo (pode ser usado em th e td) */
+  .background-destaque {
+    background-color: #f1f3f7;
+  }
+
+  /* Marcador azul (o "*") */
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #2b9bde; /* azul */
+    vertical-align: middle;
+  }
+
+  /* Celula vazia representada por --- */
+  .vazio {
+    color: #bdbdbd;
+    font-weight: 600;
+  }
+
+  /* Ajustes menores */
+  .text-left { text-align: left; }
+  .small { font-size: 12px; color:#666; }
+
+  /* Responsivo simples */
+  
+
+
+  .rodape2 {
+    background-color: #2f86d6;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.rodape2 .rodape-logo2{
+    position: relative;
+    margin: 20px auto;
+    
+}
+
+.rodape2 .rodape-logo2 img{
+    position: absolute;
+    left: 34%;
+    width: 100px;
+    height: 85px;
+}
+
+.rodape2 .rodape-logo2 h1{
+    font-size: 39px;
+    color: #000000;
+}
+
+.rodape2 .rodape-logo2 .rodape-paragrafo-titulo {
+  margin-bottom: 20px;
+}
+
+.rodape2 .rodape-logo2 p{
+  font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+

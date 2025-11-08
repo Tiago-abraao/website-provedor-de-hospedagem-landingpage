@@ -1,0 +1,267 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    margin: 20px auto;
+    position: relative;
+    background-color: #fff;
+    padding: 35px 0px;
+    max-width: 1024px;
+}
+
+.topo .topo-logo h1{
+    font-size: 32px;
+    color: #000000;
+}
+
+.topo .topo-logo p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+
+.topo .topo-logo img{
+    position: absolute;
+    left: -100px;
+    width: 100px;
+}
+
+.topo .topo-link{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+.topo .topo-link a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #233032;
+}
+
+.banner {
+    background-color: #2f86d6;
+}
+
+.banner-texto-imagem {
+    margin: 0px auto;
+    position: relative;
+    max-width: 1024px;
+    padding: 180px 0px;
+}
+
+.banner-texto-imagem .banner-texto {
+    width: 470px;
+}
+.banner-texto-imagem .banner-texto h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.banner-texto-imagem .banner-texto p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner-texto-imagem .banner-imagem {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 50%;
+}
+
+.anuncio1 {
+    background-color: #233032;
+}
+
+
+.anuncio2 {
+    background-color: #2f86d6;
+}
+.anuncio1 .primeiro-anuncio{
+    position: relative;
+    margin: 0px auto;
+    max-width: 1024px;
+    padding: 40px 0px;
+}
+
+.anuncio1 .primeiro-anuncio .primeiro-anuncio-texto {
+    width: 600px;
+}
+
+.primeiro-anuncio .primeiro-anuncio-texto h2{
+    font-size: 24px;
+    color: #fff;
+}
+
+.primeiro-anuncio .primeiro-anuncio-texto p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.primeiro-anuncio .primeiro-anuncio-link{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 220px;
+    padding: 15px;
+    background-color: #2f86d6;
+    border-radius: 5px;
+}
+
+
+ .primeiro-anuncio .link2 {
+    background-color: #233032;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 220px;
+    padding: 15px;
+}
+
+
+.primeiro-anuncio .primeiro-anuncio-link a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.informacoes {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.informacoes h2{
+    margin: 0px auto;
+    width: 900px;
+}
+
+ .texto-destaque {
+    color: #2f86d6;
+}
+
+.informacoes .informacoes-containers {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 1024px;
+}
+
+.informacoes-containers .container-informacoes {
+    display: inline-block;
+    width: 33%;
+}
+
+.informacoes-containers .container-informacoes img{
+    width: 50%;
+}
+
+.tabela-de-planos {
+    position: relative;
+    background-color: #f1f3f7;
+    padding: 100px 0px;
+}
+
+.tabela-de-planos table{
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 40px 20px #2f86d6;
+    max-width: 1024px;
+}
+
+
+.tabela-de-planos table th{
+    font-size: 18px;
+    color: #000000;
+}
+
+
+.tabela-de-planos h2{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+}
+
+.tabela-de-planos img{
+    width: 250px;
+}
+
+.tabela-de-planos .paragrafo-tabela {
+    font-size: 13px;
+    color: #a89f9f;
+}
+
+.tabela-de-planos .linha-impar {
+    height: 50px;
+    font-size: 16px;
+    background-color: #f1f3f7;
+    
+}
+
+.tabela-de-planos .linha-par{
+    height: 50px;
+    font-size: 16px;
+    background-color: #f6f6f6;
+}
+
+.rodape {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.rodape .rodape-logo{
+    position: relative;
+    margin: 0px auto;
+    width: 320px;
+}
+
+.rodape .rodape-logo img{
+    position: absolute;
+    left: -50px;
+    width: 100px;
+    height: 80px;
+}
+
+.rodape .rodape-logo h1{
+    font-size: 39px;
+    color: #000000;
+}
+
+
+.rodape .rodape-logo p{
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.rodape .rodape-paragrafo{
+    margin-top: 60px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+ .rodape-paragrafo-final{
+    text-align: center;
+    font-size: 16px;
+    background-color: #f1f3f7;
+    padding: 20px 0px;
+}
+
+.span-destaque{
+    font-size: 16px;
+}
+.span-destaque a{
+    text-decoration: none;
+    color: #2f86d6;
+}
